@@ -24,7 +24,7 @@ function stop() {
 function nama() {
     const mempelai = document.querySelectorAll('.nama-mempelai');
     mempelai.forEach(mempelai => {
-        mempelai.textContent='Nama L & Nama P';
+        mempelai.textContent='Aflah & Luvi';
     });
 
     const laki = document.querySelectorAll('.nama-laki');
@@ -40,7 +40,7 @@ function nama() {
 }
 
 function countdown() {
-    const eventDate = new Date('2025-06-21T00:00:00'); // Set your event date here
+    const eventDate = new Date('2025-06-22T00:00:00'); // Set your event date here
     const now = new Date();
     const timeDifference = eventDate - now;
 

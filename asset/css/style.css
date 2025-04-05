@@ -209,7 +209,7 @@ span.icon-love-last {
     height:2em;
     border-radius: 100%;
     z-index: 1;
-    margin-top: -88px;
+    margin-top: 0px;
     margin-left: 8px;
 }
 
@@ -222,19 +222,34 @@ span.line {
 }
 
 span.line-one {
-  position: absolute;
-  height: 210px;
+  /* position: absolute;
+  height: 400px;
   margin-top: 48px;
   left:22px;
+  border: solid rgba(95, 95, 33, 0.4); */
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 22px; /* sesuaikan dengan posisi icon-love */
+  width: 2px;
   border: solid rgba(95, 95, 33, 0.4);
+  z-index: 0;
 }
 
 span.line-last {
-  position: absolute;
+  /* position: absolute;
   height: 96px;
   margin-top: 48px;
   left: 22px;
+  border: solid rgba(95, 95, 33, 0.4); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 22px; /* sesuaikan dengan posisi icon-love */
+  width: 2px;
   border: solid rgba(95, 95, 33, 0.4);
+  z-index: 0;
 }
 
 span.love-mt-1{
@@ -340,11 +355,15 @@ span.love-mt-2{
 }
 
 .w-shadow-1{
-    width: 40rem; height: 13rem;
+    width: 100%;
+    max-width: 40rem; /* jadi tetap bisa lebar di desktop */
+    height: auto;
+    max-height: 100%;
 }
 
 .width-ctuk-1{
-    height: 14rem;
+    /* height: 14rem; */
+    height: auto;
 }
 
 .width-maps-1{
@@ -600,7 +619,11 @@ span.love-mt-2{
     }
 
     .w-shadow-1{
-        width: 25rem; height: 13rem;
+        /* width: 25rem; height: 13rem; */
+        width: 100%;
+    max-width: 40rem;
+    height: auto;
+    max-height: 100%;
     }
 
     span.icon-love {
@@ -662,7 +685,11 @@ span.love-mt-2{
     }
 
     .w-shadow-1{
-        width: 40rem; height: 13rem;
+        /* width: 40rem; height: 13rem; */
+        width: 100%;
+    max-width: 40rem;
+    height: auto;
+    max-height: 100%;
     }
 
     /* navbar */
@@ -704,7 +731,11 @@ span.love-mt-2{
     }
 
     .w-shadow-1{
-        width: 18.5rem; height: 16rem;
+        /* width: 18.5rem; height: 16rem; */
+        width: 100%;
+    max-width: 40rem;
+    height: auto;
+    max-height: 100%;
     }
 
     span.icon-love {
@@ -721,12 +752,26 @@ span.love-mt-2{
     }
 
     span.line-one {
-        height: 270px;
-        left:22px;
+        /* height: 210px;
+        left:22px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
     }
 
     span.line-last {
-        height: 144px;
+        /* height: 144px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
     }
 
     .width-ctuk-1{
@@ -800,7 +845,11 @@ span.love-mt-2{
     }
 
     .w-shadow-1{
-        width: 40rem; height: 13rem;
+        /* width: 40rem; height: 13rem; */
+        width: 100%;
+        max-width: 40rem;
+        height: auto;
+        max-height: 100%;
     }
 
     /* navbar */
@@ -842,7 +891,11 @@ span.love-mt-2{
     }
 
     .w-shadow-1{
-        width: 18.5rem; height: 16rem;
+        /* width: 18.5rem; height: 16rem; */
+        width: 100%;
+        max-width: 40rem;
+        height: auto;
+        max-height: 100%;
     }
 
     span.icon-love {
@@ -859,12 +912,26 @@ span.love-mt-2{
     }
 
     span.line-one {
-        height: 270px;
-        left:22px;
+        /* height: 270px;
+        left:22px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
     }
 
     span.line-last {
-        height: 144px;
+        /* height: 144px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
     }
 
     .width-ctuk-1{
